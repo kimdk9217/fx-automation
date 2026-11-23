@@ -1,5 +1,7 @@
 # Music Structure-Aware FX Automation from Natural Language
 
+**Paper:** [ISMIR 2026 Late-Breaking/Demo](https://ismir2026program.ismir.net/lbd_649.html#paper)
+
 Turns a natural-language instruction into time-varying EQ and reverb automation for one section of a song.
 
 Example instruction: *"start warm, then slowly move toward the reference sound and hold it."*
