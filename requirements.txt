@@ -1,0 +1,12 @@
+numpy
+scipy
+torch
+soundfile
+librosa
+jsonschema
+matplotlib
+pyyaml
+datasets
+dasp-pytorch
+torchlpc
+pytest

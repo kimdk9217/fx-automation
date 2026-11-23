@@ -1,0 +1,3 @@
+[submodule "vendor/Fx-Encoder_PlusPlus"]
+	path = vendor/Fx-Encoder_PlusPlus
+	url = https://github.com/SonyResearch/Fx-Encoder_PlusPlus.git

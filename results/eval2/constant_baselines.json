@@ -1,0 +1,280 @@
+{
+  "aggregate_mae": {
+    "planner": 0.15194428103564447,
+    "fixed_midpoint": 0.21400964266653394,
+    "oracle_constant": 0.19093308843564613
+  },
+  "paired_comparisons": {
+    "fixed_midpoint": {
+      "mean_mae_difference": 0.062065361630889423,
+      "paired_95pct_bootstrap_interval": [
+        0.028912008889283775,
+        0.09077020622452014
+      ],
+      "relative_mae_reduction": 0.2900119866449129,
+      "curve_level_comparison": {
+        "planner_lower_mae": 25,
+        "tie": 0,
+        "planner_higher_mae": 5
+      }
+    },
+    "oracle_constant": {
+      "mean_mae_difference": 0.03898880740000165,
+      "paired_95pct_bootstrap_interval": [
+        0.006342567660669617,
+        0.06757307593689912
+      ],
+      "relative_mae_reduction": 0.20420141799121844,
+      "curve_level_comparison": {
+        "planner_lower_mae": 25,
+        "tie": 0,
+        "planner_higher_mae": 5
+      }
+    }
+  },
+  "curve_rows": [
+    {
+      "curve_id": "curve_01",
+      "family": "progressive_rise",
+      "planner": 0.054866851472974966,
+      "fixed_midpoint": 0.188642000249923,
+      "oracle_constant": 0.15938262349011897,
+      "oracle_value": 0.3721674816916994
+    },
+    {
+      "curve_id": "curve_02",
+      "family": "progressive_rise",
+      "planner": 0.14044244569967282,
+      "fixed_midpoint": 0.1978005629651261,
+      "oracle_constant": 0.19673787105305496,
+      "oracle_value": 0.46151742017896463
+    },
+    {
+      "curve_id": "curve_03",
+      "family": "progressive_rise",
+      "planner": 0.07788270537175095,
+      "fixed_midpoint": 0.17827910277927086,
+      "oracle_constant": 0.12867737035923393,
+      "oracle_value": 0.312831
+    },
+    {
+      "curve_id": "curve_04",
+      "family": "progressive_rise",
+      "planner": 0.06403516355370253,
+      "fixed_midpoint": 0.20128601554019648,
+      "oracle_constant": 0.1977913469920774,
+      "oracle_value": 0.5812530895854577
+    },
+    {
+      "curve_id": "curve_05",
+      "family": "progressive_rise",
+      "planner": 0.12524984080415602,
+      "fixed_midpoint": 0.2272905304173563,
+      "oracle_constant": 0.19696827820795476,
+      "oracle_value": 0.3108588380740756
+    },
+    {
+      "curve_id": "curve_06",
+      "family": "progressive_fall",
+      "planner": 0.14878321124138108,
+      "fixed_midpoint": 0.2644381399558609,
+      "oracle_constant": 0.15609699729534843,
+      "oracle_value": 0.7450891744327317
+    },
+    {
+      "curve_id": "curve_07",
+      "family": "progressive_fall",
+      "planner": 0.15697599161196465,
+      "fixed_midpoint": 0.1790365289890819,
+      "oracle_constant": 0.1590767009823592,
+      "oracle_value": 0.687251
+    },
+    {
+      "curve_id": "curve_08",
+      "family": "progressive_fall",
+      "planner": 0.12972524372455732,
+      "fixed_midpoint": 0.15954176038115708,
+      "oracle_constant": 0.15593091331941386,
+      "oracle_value": 0.4455314579064654
+    },
+    {
+      "curve_id": "curve_09",
+      "family": "progressive_fall",
+      "planner": 0.1316363806903723,
+      "fixed_midpoint": 0.22450176773762578,
+      "oracle_constant": 0.22073042215662764,
+      "oracle_value": 0.4311272694559621
+    },
+    {
+      "curve_id": "curve_10",
+      "family": "progressive_fall",
+      "planner": 0.3259887965235704,
+      "fixed_midpoint": 0.23686857741533474,
+      "oracle_constant": 0.10702037302979411,
+      "oracle_value": 0.704361
+    },
+    {
+      "curve_id": "curve_11",
+      "family": "arched_return",
+      "planner": 0.17582170504009165,
+      "fixed_midpoint": 0.20993461404809047,
+      "oracle_constant": 0.17911504472139161,
+      "oracle_value": 0.3503027594051769
+    },
+    {
+      "curve_id": "curve_12",
+      "family": "arched_return",
+      "planner": 0.10877411493535734,
+      "fixed_midpoint": 0.19334861488691185,
+      "oracle_constant": 0.1818034649674473,
+      "oracle_value": 0.6017624027803954
+    },
+    {
+      "curve_id": "curve_13",
+      "family": "arched_return",
+      "planner": 0.3129472213137674,
+      "fixed_midpoint": 0.14262114596703754,
+      "oracle_constant": 0.14178357754947463,
+      "oracle_value": 0.4730937810076644
+    },
+    {
+      "curve_id": "curve_14",
+      "family": "arched_return",
+      "planner": 0.13670218702092995,
+      "fixed_midpoint": 0.2188109694200903,
+      "oracle_constant": 0.20384888871293677,
+      "oracle_value": 0.3823357034068635
+    },
+    {
+      "curve_id": "curve_15",
+      "family": "arched_return",
+      "planner": 0.12668740620590138,
+      "fixed_midpoint": 0.24988637788470636,
+      "oracle_constant": 0.2496664404773994,
+      "oracle_value": 0.48374084606009954
+    },
+    {
+      "curve_id": "curve_16",
+      "family": "valley_return",
+      "planner": 0.09329640991136784,
+      "fixed_midpoint": 0.21326197701915153,
+      "oracle_constant": 0.20582124150936013,
+      "oracle_value": 0.42266818026858977
+    },
+    {
+      "curve_id": "curve_17",
+      "family": "valley_return",
+      "planner": 0.191183078009986,
+      "fixed_midpoint": 0.18370030911531607,
+      "oracle_constant": 0.1623321427519659,
+      "oracle_value": 0.6064760753544312
+    },
+    {
+      "curve_id": "curve_18",
+      "family": "valley_return",
+      "planner": 0.10814894318067676,
+      "fixed_midpoint": 0.16259701018077816,
+      "oracle_constant": 0.15545126536773926,
+      "oracle_value": 0.5851666705169948
+    },
+    {
+      "curve_id": "curve_19",
+      "family": "valley_return",
+      "planner": 0.1095514667963456,
+      "fixed_midpoint": 0.23799930610920408,
+      "oracle_constant": 0.2139072120071316,
+      "oracle_value": 0.6286617820993444
+    },
+    {
+      "curve_id": "curve_20",
+      "family": "valley_return",
+      "planner": 0.15974281508270868,
+      "fixed_midpoint": 0.23036047194439366,
+      "oracle_constant": 0.22996761643016173,
+      "oracle_value": 0.5203513079071092
+    },
+    {
+      "curve_id": "curve_21",
+      "family": "alternating_partial",
+      "planner": 0.06658003386541506,
+      "fixed_midpoint": 0.1936220425933429,
+      "oracle_constant": 0.19337455777517792,
+      "oracle_value": 0.5135968193284702
+    },
+    {
+      "curve_id": "curve_22",
+      "family": "alternating_partial",
+      "planner": 0.09092918760640183,
+      "fixed_midpoint": 0.2185692576879495,
+      "oracle_constant": 0.21820977872184982,
+      "oracle_value": 0.5198027001083786
+    },
+    {
+      "curve_id": "curve_23",
+      "family": "alternating_partial",
+      "planner": 0.1134552162977129,
+      "fixed_midpoint": 0.23231555959891206,
+      "oracle_constant": 0.2322959391131641,
+      "oracle_value": 0.49541219395250813
+    },
+    {
+      "curve_id": "curve_24",
+      "family": "alternating_partial",
+      "planner": 0.16695152563208282,
+      "fixed_midpoint": 0.19442297066501601,
+      "oracle_constant": 0.19243952743828696,
+      "oracle_value": 0.5372697032399494
+    },
+    {
+      "curve_id": "curve_25",
+      "family": "alternating_partial",
+      "planner": 0.1271515543975089,
+      "fixed_midpoint": 0.12421685201649413,
+      "oracle_constant": 0.12044216884369503,
+      "oracle_value": 0.5570246513640819
+    },
+    {
+      "curve_id": "curve_26",
+      "family": "complex_plateaus",
+      "planner": 0.158734460090349,
+      "fixed_midpoint": 0.22340928233765553,
+      "oracle_constant": 0.21082002024059932,
+      "oracle_value": 0.3705788776959513
+    },
+    {
+      "curve_id": "curve_27",
+      "family": "complex_plateaus",
+      "planner": 0.07620026259275975,
+      "fixed_midpoint": 0.28189666605802993,
+      "oracle_constant": 0.21368582806074485,
+      "oracle_value": 0.15872935230238205
+    },
+    {
+      "curve_id": "curve_28",
+      "family": "complex_plateaus",
+      "planner": 0.23069951067699837,
+      "fixed_midpoint": 0.37391513174873187,
+      "oracle_constant": 0.29175087684522744,
+      "oracle_value": 0.111355
+    },
+    {
+      "curve_id": "curve_29",
+      "family": "complex_plateaus",
+      "planner": 0.42653476685605146,
+      "fixed_midpoint": 0.19499544043776942,
+      "oracle_constant": 0.19485771780594582,
+      "oracle_value": 0.5122013515739173
+    },
+    {
+      "curve_id": "curve_30",
+      "family": "complex_plateaus",
+      "planner": 0.22264993486281873,
+      "fixed_midpoint": 0.28272029384550246,
+      "oracle_constant": 0.258006446843701,
+      "oracle_value": 0.3209082525109882
+    }
+  ],
+  "bootstrap_seed": 20260827,
+  "replicates": 10000,
+  "comparison_design": "Unchanged fixed 0.5 and target-aware MAE-optimal oracle constants. Only planner transport case amended."
+}
